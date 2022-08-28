@@ -1,6 +1,6 @@
 ﻿Console.Clear();
 Console.WriteLine("Введите число");
-string strnumber = Console.ReadLine();
+string strnumber = Console.ReadLine()!;
 if (strnumber.Length > 2)
 {
     int number = Convert.ToInt32(strnumber);
